@@ -11,6 +11,9 @@ keywords = ["selenium", "scraper", "webscraper", "web", "scraper"]
 authors = [
     {name = "Sabari Rajan", email = "iamsabarirajan@gmail.com"}
 ]
+dynamic = [
+    "version"
+]
 description = "Selenium Scraper"
 readme = "README.md"
 license = {file = "LICENSE"}
@@ -19,3 +22,6 @@ dependencies = [
     "selenium",
     "webdriver_manager"
 ]
+
+[tool.hatch.version]
+path = "src/__about__.py"
