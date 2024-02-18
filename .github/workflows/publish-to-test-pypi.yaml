@@ -23,7 +23,7 @@ jobs:
       
       # Store the distribution packages from dist folder
       - name: Store the distribution packages
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: python-package-distributions
           path: dist/
@@ -36,7 +36,7 @@ jobs:
     - build
     runs-on: ubuntu-latest
     environment:
-      name: Pypi
+      name: pypi
       url: https://pypi.org/p/Selenium_Scraper   #Selenium_Scraper is the package name in PyPi repository
     permissions:
       id-token: write  # IMPORTANT: mandatory for trusted publishing
