@@ -114,7 +114,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: python-package-distributions
-          path: dict/
+          path: dist/
       - name: Publish distribution to TestPyPi
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
