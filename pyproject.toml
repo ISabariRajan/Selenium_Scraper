@@ -23,6 +23,8 @@ dependencies = [
     "selenium",
     "webdriver_manager"
 ]
+long_description = "Selenium Scraper"
+long_description_content_type = "text/markdown"
 
 [tool.hatch.version]
 path = "Selenium_Scraper/__about__.py"
