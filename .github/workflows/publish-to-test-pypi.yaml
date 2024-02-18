@@ -15,7 +15,7 @@ jobs:
 
       # Install Python packages
       - name: Install Python package/Build
-        run: python3 -m pip install build -- user
+        run: python3 -m pip install build --user
       
       # Runs python build to create wheel and source tarball
       - name: Build a binary wheel and a source tarball
