@@ -12,6 +12,6 @@ readme = "README.md"
 license = {file = "LICENSE"}
 requires_-python = ">=3.8"
 dependencies = [
-    "selenium"
+    "selenium",
     "webdriver_manager"
 ]
