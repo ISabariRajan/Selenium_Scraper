@@ -25,4 +25,4 @@ dependencies = [
 ]
 
 [tool.hatch.version]
-path = "src/__about__.py"
+path = "Selenium_Scraper/__about__.py"
