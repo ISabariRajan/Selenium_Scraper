@@ -1,8 +1,6 @@
 name: Publish Python distribution to PyPi and TestPyPi
 on:
-  push:
-    branches:
-      - master
+  push
 jobs:
   build:
     name: Build Distribution
